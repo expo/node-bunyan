@@ -10,12 +10,12 @@ ifeq ($(shell uname -s),SunOS)
 	SUDO :=
 endif
 DTRACE_UP_IN_HERE=
-ifeq ($(shell uname -s),SunOS)
-    DTRACE_UP_IN_HERE=1
-endif
-ifeq ($(shell uname -s),Darwin)
-    DTRACE_UP_IN_HERE=1
-endif
+# ifeq ($(shell uname -s),SunOS)
+#     DTRACE_UP_IN_HERE=1
+# endif
+# ifeq ($(shell uname -s),Darwin)
+#     DTRACE_UP_IN_HERE=1
+# endif
 NODEOPT ?= $(HOME)/opt
 
 
