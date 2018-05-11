@@ -17,7 +17,8 @@
   "license": "MIT",
 
   "dependencies": {
-    "exeunt": "1.1.0"
+    "exeunt": "1.1.0",
+    "uuid": "^3.2.1"
   },
   "// mv": "required for RotatingFileStream",
   "// moment": "required for local time with CLI",

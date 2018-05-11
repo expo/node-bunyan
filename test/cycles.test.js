@@ -73,6 +73,7 @@ test('cycles', function (t) {
             delete o.hostname;
             delete o.pid;
             delete o.time;
+            delete o.id;
             // Hack object/dict comparison: JSONify.
             t.equal(JSON.stringify(o), JSON.stringify(expect[i]),
                 'log item ' + i + ' matches');
