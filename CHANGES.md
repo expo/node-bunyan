@@ -9,6 +9,9 @@ Known issues:
 
 (nothing yet)
 
+## 3.0.2 (Expo)
+
+- Add `id` field (UUID v1) to all log records.
 
 ## 2.0.0 (beta)
 
