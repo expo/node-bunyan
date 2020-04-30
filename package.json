@@ -4,6 +4,7 @@
   "description": "a JSON logging library for node.js services",
   "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
   "main": "./lib/bunyan.js",
+  "types": "./types/index.d.ts",
   "bin": {
     "bunyan": "./bin/bunyan"
   },
