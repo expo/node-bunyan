@@ -5,11 +5,7 @@
   "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
   "main": "./lib/bunyan.js",
   "types": "./types/index.d.ts",
-  "bin": {
-    "bunyan": "./bin/bunyan"
-  },
   "files": [
-    "bin",
     "types",
     "lib"
   ],
@@ -17,20 +13,24 @@
     "type": "git",
     "url": "git://github.com/trentm/node-bunyan.git"
   },
-  "engines": ["node >=0.10.0"],
-  "keywords": ["log", "logging", "log4j", "json", "bunyan"],
+  "engines": [
+    "node >=0.10.0"
+  ],
+  "keywords": [
+    "log",
+    "logging",
+    "log4j",
+    "json",
+    "bunyan"
+  ],
   "license": "MIT",
-
   "dependencies": {
-    "exeunt": "1.1.0",
-    "uuid": "^3.2.1"
+    "uuid": "^8.0.0"
   },
   "// mv": "required for RotatingFileStream",
-  "// moment": "required for local time with CLI",
   "optionalDependencies": {
     "mv": "~2",
-    "safe-json-stringify": "~1",
-    "moment": "^2.10.6"
+    "safe-json-stringify": "~1"
   },
   "devDependencies": {
     "nodeunit": "0.9",
@@ -39,7 +39,6 @@
     "verror": "1.3.3",
     "vasync": "1.4.3"
   },
-
   "scripts": {
     "test": "make test"
   }
