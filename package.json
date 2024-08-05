@@ -27,17 +27,15 @@
   "dependencies": {
     "uuid": "^8.0.0"
   },
-  "// mv": "required for RotatingFileStream",
   "optionalDependencies": {
-    "mv": "~2",
     "safe-json-stringify": "~1"
   },
   "devDependencies": {
-    "nodeunit": "0.9",
     "ben": "0.0.0",
     "markdown-toc": "0.12.x",
-    "verror": "1.3.3",
-    "vasync": "1.4.3"
+    "nodeunit": "0.9",
+    "vasync": "1.4.3",
+    "verror": "1.3.3"
   },
   "scripts": {
     "test": "make test"
