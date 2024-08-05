@@ -41,7 +41,7 @@ var log = new bunyan.createLogger({
 
 
 test('log.info(BUFFER)', function (t) {
-    var b = new Buffer('foo');
+    var b = Buffer.from('foo', 'utf8');
 
     ['trace',
      'debug',
