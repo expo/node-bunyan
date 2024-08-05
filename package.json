@@ -27,9 +27,6 @@
   "dependencies": {
     "uuid": "^8.0.0"
   },
-  "optionalDependencies": {
-    "safe-json-stringify": "~1"
-  },
   "devDependencies": {
     "ben": "0.0.0",
     "markdown-toc": "0.12.x",
