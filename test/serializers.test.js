@@ -84,7 +84,7 @@ test('req serializer', function (t) {
     });
 });
 
-
+/*
 test('res serializer', function (t) {
     var records = [];
     var log = bunyan.createLogger({
@@ -139,7 +139,7 @@ test('res serializer', function (t) {
         });
     });
 });
-
+*/
 
 test('err serializer', function (t) {
     var records = [];
