@@ -1,6 +1,6 @@
 {
   "name": "@expo/bunyan",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "a JSON logging library for node.js services",
   "author": "Trent Mick <trentm@gmail.com> (http://trentm.com)",
   "main": "./lib/bunyan.js",
